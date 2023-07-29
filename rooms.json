@@ -1,0 +1,83 @@
+[
+  {
+    "RoomID": 1,
+    "No_seats": 100,
+    "aminities": "fridge,washingmachine",
+    "price": 100
+  },
+  {
+    "RoomID": 2,
+    "No_seats": 130,
+    "aminities": "fridge,washingmachine",
+    "price": 200
+  },
+  {
+    "RoomID": 3,
+    "No_seats": 140,
+    "aminities": "fridge,washingmachine",
+    "price": 100
+  },
+  [
+    {
+      "RoomID": 1,
+      "No_seats": 100,
+      "aminities": "fridge,washingmachine",
+      "price": 100
+    },
+    {
+      "RoomID": 2,
+      "No_seats": 130,
+      "aminities": "fridge,washingmachine",
+      "price": 200
+    },
+    {
+      "RoomID": 3,
+      "No_seats": 140,
+      "aminities": "fridge,washingmachine",
+      "price": 100
+    },
+    "gowtham"
+  ],
+  [
+    {
+      "RoomID": 1,
+      "No_seats": 100,
+      "aminities": "fridge,washingmachine",
+      "price": 100
+    },
+    {
+      "RoomID": 2,
+      "No_seats": 130,
+      "aminities": "fridge,washingmachine",
+      "price": 200
+    },
+    {
+      "RoomID": 3,
+      "No_seats": 140,
+      "aminities": "fridge,washingmachine",
+      "price": 100
+    },
+    [
+      {
+        "RoomID": 1,
+        "No_seats": 100,
+        "aminities": "fridge,washingmachine",
+        "price": 100
+      },
+      {
+        "RoomID": 2,
+        "No_seats": 130,
+        "aminities": "fridge,washingmachine",
+        "price": 200
+      },
+      {
+        "RoomID": 3,
+        "No_seats": 140,
+        "aminities": "fridge,washingmachine",
+        "price": 100
+      },
+      "gowtham"
+    ],
+    "gowtham"
+  ]
+]
