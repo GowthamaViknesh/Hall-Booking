@@ -156,6 +156,24 @@ app.get("/customers/booking-count", async (req, res) => {
   }
 });
 
+app.get("/rooms", async (req, res) => {
+  try {
+    const room = await Rooms.find({});
+    res.status(200).json({ room, message: `Rooms are availbale` });
+  } catch (error) {
+    res.status(404).json({ error: `The Rooms is not available` });
+  }
+});
+
+app.get("/booking", async (req, res) => {
+  try {
+    const book = await Booking.find({});
+    res.status(200).json({ book, message: `Booked` });
+  } catch (error) {
+    res.status(404).json({ error: `The Booking is not available` });
+  }
+});
+
 //Connect the MONGODB as backend and using CRUD operations
 mongo
   .connect("mongodb+srv://HallBookingAPI:Hall@cluster0.tjvbqoo.mongodb.net/")
